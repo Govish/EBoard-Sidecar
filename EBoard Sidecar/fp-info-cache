@@ -1,4 +1,4 @@
-16416334009382729
+16419531553267870
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -42672,6 +42672,13 @@ THT ceramic resonator filter DSS6
 3
 3
 Custom-DiscreteSemi
+1W_LED
+
+
+0
+3
+3
+Custom-DiscreteSemi
 LED_1206ReverseMount
 LED SMD 1206 (3216 Metric), reverse mount, square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 diode reverse
@@ -43044,6 +43051,13 @@ THT Terminal Block TE 282834-2 pitch 2.54mm size 5.54x6.5mm^2 drill 1.1mm pad 2.
 2
 Custom-Mechanical
 ZipTie-4mm
+
+
+0
+0
+0
+Custom-Mechanical
+ZipTie-5.5mm
 
 
 0

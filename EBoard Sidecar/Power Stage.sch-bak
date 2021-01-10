@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -714,4 +714,26 @@ Wire Wire Line
 	4800 5100 5500 5100
 Text Notes 4200 5250 0    50   ~ 0
 Has internal pulldown
+Wire Notes Line
+	3750 4300 3750 5550
+Wire Notes Line
+	3750 5550 2900 5550
+Wire Notes Line
+	2900 5550 2900 4300
+Wire Notes Line
+	2900 4300 3750 4300
+Text Notes 2950 4400 0    50   ~ 0
+DNP
+Text Notes 3650 4250 0    50   ~ 0
+Will draw 380uA\nwhile shut down
+Wire Notes Line
+	8150 4300 8950 4300
+Wire Notes Line
+	8950 4300 8950 5550
+Wire Notes Line
+	8950 5550 8150 5550
+Wire Notes Line
+	8150 5550 8150 4300
+Text Notes 9000 4450 0    50   ~ 0
+Also Optional\nCan sense from VESC
 $EndSCHEMATC

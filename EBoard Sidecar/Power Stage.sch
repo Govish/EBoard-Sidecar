@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -263,8 +263,8 @@ U 1 1 5F471405
 P 7850 5350
 AR Path="/5F471405" Ref="C?"  Part="1" 
 AR Path="/5F45E2A5/5F471405" Ref="C406"  Part="1" 
-F 0 "C406" H 7965 5396 50  0000 L CNN
-F 1 "10n" H 7965 5305 50  0000 L CNN
+F 0 "C406" H 7500 5400 50  0000 L CNN
+F 1 "10n" H 7550 5300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7888 5200 50  0001 C CNN
 F 3 "~" H 7850 5350 50  0001 C CNN
 	1    7850 5350
@@ -714,4 +714,26 @@ Wire Wire Line
 	4800 5100 5500 5100
 Text Notes 4200 5250 0    50   ~ 0
 Has internal pulldown
+Wire Notes Line
+	3750 4300 3750 5550
+Wire Notes Line
+	3750 5550 2900 5550
+Wire Notes Line
+	2900 5550 2900 4300
+Wire Notes Line
+	2900 4300 3750 4300
+Text Notes 2950 4400 0    50   ~ 0
+DNP
+Text Notes 3650 4250 0    50   ~ 0
+Will draw 380uA\nwhile shut down
+Wire Notes Line
+	8150 4300 8950 4300
+Wire Notes Line
+	8950 4300 8950 5550
+Wire Notes Line
+	8950 5550 8150 5550
+Wire Notes Line
+	8150 5550 8150 4300
+Text Notes 9000 4450 0    50   ~ 0
+Also Optional\nCan sense from VESC
 $EndSCHEMATC
